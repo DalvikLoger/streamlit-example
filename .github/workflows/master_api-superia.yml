@@ -66,4 +66,5 @@ jobs:
         with:
           app-name: 'api-superia'
           slot-name: 'Production'
+          package: ./build
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A7E79972E314240A847A996C221398C }}
